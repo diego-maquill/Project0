@@ -1,0 +1,29 @@
+@IsTest//(seeAllData=True)
+public class Update_Project_Mining_Subject_Test {    
+    
+    static testmethod void testmethod1()
+    {
+        List<Mining_Project_Id__c> lstMiningProj = new List<Mining_Project_Id__c>();
+        
+        Test.startTest();
+        Mining_Project_Id__c minProj = new Mining_Project_Id__c();
+        
+        minProj.Mineral_or_Element_for_Extraction__c = 'Lithium';
+        minProj.Project_Name__c = ':L New ProjectName';
+        lstMiningProj.add(minProj);
+        
+        minProj = new Mining_Project_Id__c();
+        minProj.Mineral_or_Element_for_Extraction__c = 'Hydrogen';
+        minProj.Project_Name__c = 'Not correct Name';
+        lstMiningProj.add(minProj);
+        
+        /*System.assert(minProj.getErrors().size() > 0);
+        System.assertEquals('Cannot modify account with that Project_Name pattern.',
+                            minProj.getErrors()[0].getMessage());
+        */
+        Update_Project_Mining_Subject.UpdateProjectMiningSubject(lstMiningProj);
+        
+        Test.stopTest();
+    }
+
+}
