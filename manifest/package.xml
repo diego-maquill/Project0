@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>*</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexComponent</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexTestSuite</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+		<members>*</members>
+		<name>CustomApplication</name>
+	</types>
+
+    <types>
+        <members>*</members>
+        <name>StaticResource</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Queue</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomObject</name>
+    </types>
+       <types>
+        <members>*</members>
+        <name>Flow</name>
+    </types>
+      <types>
+        <members>*</members>
+        <name>PermissionSet</name>
+    </types>
+      <types>
+        <members>Customer__c-Customer Layout</members>
+        <members>Finances__c-Finances Layout</members>
+        <members>Machine_and_Tools__c-Machine and Tools Layout</members>
+        <members>Mining_Project_Id__c-Mining Project Id Layout</members>
+        <members>Operations__c-Operations Layout</members>
+        <members>Operations_Goal__c-Operations Location Layout</members>
+        <members>Project_Name__c-Project Name Layout</members>
+        <members>Sales__c-Sales Layout</members>
+        <members>Site_Manager__c-Site Manager Layout</members>
+        
+        <name>Layout</name>
+    </types>
+      <types>
+        <members>*</members>
+        <name>FlexiPage</name>
+    </types>
+      <types>
+        <members>*</members>
+        <name>Role</name>
+    </types>    
+      <types>
+        <members>*</members>
+        <name>SharingRules</name>
+    </types>    
+    <version>51.0</version>
+</Package>
